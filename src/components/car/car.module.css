@@ -1,0 +1,20 @@
+.blockWithCars{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1vw;
+    padding: 1vw;
+}
+.carCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 2px #d81414 solid;
+    padding: 10px;
+}
+.carCard:hover{
+    box-shadow: 5px 5px 5px 0 rgba(216,20,20,0.5);
+    -webkit-box-shadow: 5px 5px 5px 0 rgba(216,20,20,0.5);
+    -moz-box-shadow: 5px 5px 5px 0 rgba(216,20,20,0.5);
+}
